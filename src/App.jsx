@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Titulos from "./components/Titulos"
 
 function App() {
-  const [count, setCount] = useState(0)
+//Aqui escribimos logica
 
   return (
-    
-      <div></div>
+  //Aqui va el maquetado y un poco de logica - //El simbolo <> es "fragment""
+  <>   
+     <Titulos></Titulos>
+    </>
 
   )
 }
