@@ -1,17 +1,17 @@
-import './App.css'
-import Titulos from "./components/Titulos"
+import "./App.css";
+import Titulos from "./components/Titulos";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-//Aqui escribimos logica
+  //aqui vamos a escribir logica
 
   return (
-  //Aqui va el maquetado y un poco de logica - //El simbolo <> es "fragment""
-  <section className='container my-4'>   
-     <Titulos></Titulos>
-    </section>
-
-  )
+    //aqui va el maquetado y un poco de logica
+    //<> es un Fragment
+    <section className="container my-4">
+     <Titulos/>
+  </section>
+  );
 }
 
-export default App
+export default App;
